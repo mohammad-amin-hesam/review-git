@@ -41,3 +41,5 @@ git rm -A
 git rm "*.html"
 git rm "some.*"
 
+// remove branch
+git branch -d branch-name
