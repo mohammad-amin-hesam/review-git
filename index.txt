@@ -24,3 +24,13 @@ git reset "some.*"
 
 // git recover file changes
 git checkout -- index.html
+
+
+// add new branch
+git branch branch-name
+
+// show all branches
+git branch
+
+// move to some branches
+git checkout branch-name
