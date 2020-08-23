@@ -56,3 +56,26 @@ git remote -v
 // for check conflicts you can use:
 git pull
 // and after it conflicts will be solve or you can show conflicts and edit them befor push
+
+
+// show git commit details
+git show commid-id
+
+// tag for description in project such as v1, v2 and etc..
+
+// show tags
+git tag
+
+// show specific tags
+git tag -l "v*"
+
+// git add tag
+git tag -a v2.0 -m 'first version with tag. this is what we are runnig for a long time
+'
+
+// add tag on a specific commit
+git tag -a v1.8 commit-id -m "folan"
+
+
+// move to some tags
+git checkout v1.8
