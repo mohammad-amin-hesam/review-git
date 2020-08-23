@@ -43,3 +43,16 @@ git rm "some.*"
 
 // remove branch
 git branch -d branch-name
+
+// add remote
+git remote add origin url
+
+// show remotes
+git remote
+git remote -v
+
+
+
+// for check conflicts you can use:
+git pull
+// and after it conflicts will be solve or you can show conflicts and edit them befor push
