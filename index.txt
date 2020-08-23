@@ -34,3 +34,10 @@ git branch
 
 // move to some branches
 git checkout branch-name
+
+
+// remove file from git and file system
+git rm -A
+git rm "*.html"
+git rm "some.*"
+
