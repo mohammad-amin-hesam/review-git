@@ -11,5 +11,16 @@ git status
 // commit stage changes
 git commit -m 'some messages'
 
+// git show change details
+git diff HEAD
+git diff --staged
 
 
+// reset stage changes
+git reset -A
+git reset "*.html"
+git reset "some.*"
+
+
+// git recover file changes
+git checkout -- index.html
