@@ -1,0 +1,15 @@
+// git add some changes to stage
+git add -A
+git add "*.html"
+git add "some.*"
+
+
+// show git status
+git status
+
+
+// commit stage changes
+git commit -m 'some messages'
+
+
+
